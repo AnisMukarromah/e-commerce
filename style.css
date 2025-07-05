@@ -1,0 +1,111 @@
+body {
+  font-family: 'Franklin Gothic Medium';
+  margin: 0;
+  background: #e48787;
+
+}
+header {
+  background :#e48787;
+  color: #4f0505;
+  padding: 1rem;
+  text-align: center;
+  
+}
+
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.h1{
+  font-size: large;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.img {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  object-fit: cover;
+}
+.hero {
+  
+  font-size:5em;
+  transition: font-size 0.5s ease;
+  background: #e48787;
+  color: white;
+  padding: 10rem;
+  text-align: center;
+  background-image: url('https://img.freepik.com/premium-photo/cake-tasting-event-with-variety-flavors_198067-224420.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0; 
+   height: 100vh;
+   p{
+            font-size:60px; 
+            transition: font-size 0.5s ease; 
+        }
+        p:hover {
+            font-size: 80px; 
+        }
+}
+.produk-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+.produk {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 200px;
+  text-align: center;
+}
+.kontak{
+  color:#4f0505
+}
+.button {
+    background-color: #e48787; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    border: none; /* Tanpa border */
+    padding: 15px 32px; /* Padding atas-bawah dan kiri-kanan */
+    text-align: center; /* Teks di tengah */
+    text-decoration: none; /* Tanpa garis bawah */
+    display: inline-block; /* Agar tombol bisa berdiri sendiri */
+    font-size: 16px; /* Ukuran font */
+    margin: 4px 2px; /* Margin di sekitar tombol */
+    cursor: pointer; /* Kursor berubah saat hover */
+    border-radius: 8px; /* Sudut membulat */
+    transition: background-color 0.3s, transform 0.2s; /* Efek transisi */
+}
+
+.button:hover {
+    background-color: #4f0505; /* Warna saat hover */
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+.button:active {
+    transform: scale(0.95); /* Efek saat tombol ditekan */
+}
+footer {
+  background: #4f0505;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
